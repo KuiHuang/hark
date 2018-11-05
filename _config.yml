@@ -1,0 +1,50 @@
+safe:        true
+auto:        false
+url:         http://huangxc.com
+
+source:      .
+port:        4000
+destination: ./_site
+plugins_dir: ./_plugins
+
+future:      true
+lsi:         false
+highlighter: false
+markdown:    kramdown
+
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_engine: blahtex
+  png_dir:    images/latex
+  png_url:    /images/latex
+
+rdiscount:
+  extensions: []
+
+kramdown:
+  auto_ids:    true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+  
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style
+
+permalink:    /:title
+
+title:        narsight
+alt:          Narsi's blog
+author:
+  name:       Narsi
+copyright:
+  - Powered by <a href="https://github.com/mojombo/jekyll" target="_blank">Jekyll</a> and <a href="https://github.com/" target="_blank">GitHub</a>. &copy; Narsi 2015
+
+paginate:     5
+gems: [jekyll-paginate]

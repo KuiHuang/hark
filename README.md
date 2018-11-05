@@ -1,4 +1,5 @@
-[hark.github.io](http://kuihuang.github.io/hark/)
-==============
+**Narsi's blog**
 
-Hark's Blog
+This is my blog.It's powered by Jekyll.
+
+Welcome.
